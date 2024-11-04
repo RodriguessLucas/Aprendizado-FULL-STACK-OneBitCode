@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Tipos de input</title>
+    </head>
+    <body>
+        <h1>Tipos de input"></h1>
+        
+        <form>
+            <!-- Campo de texto-->
+            <label for="nome">Nome</label>
+            <input type="text" id = "nome" name="nome" required>
+            <br><br>
+
+            <!-- Campo de email-->
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <!--- Campo de senha-->
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+            <br><br>
+
+            <!-- campo de seleção (radio)-->
+            <label >Genero</label><br>
+            <input type="radio" name="genero" id="masculino" value="homem">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="feminino" value="mulher">
+            <label for="feminino">feminino</label>
+
+            <!-- campo de seleção multipla (checkbox)-->
+            <br>
+            <label for="">Interesses</label><br>
+            <input type="checkbox" name="interesses" id="backend" value="backend">
+            <label for="backend">Backend</label><br>
+
+            <input type="checkbox" name="interesses" id="frontend" value="frontend">
+            <label for="frontend">frontend</label><br>
+
+            <input type="checkbox" name="interesses" id="fullstack" value="fullstack">
+            <label for="fullstack">fullstack</label><br> 
+
+            <!--- Campo de data-->
+            <label for="dataDeNascimento">Data de Nascimento</label>
+            <input type="date" id="dataDeNascimento" name="nascimento">
+            <br><br>
+
+
+            <!--- Campo de Arquivo (uploads)-->
+            <label for="Arquivo">Arquivo</label><br>
+            <input type="file" name="arquivo" id="Arquivo"><br><br>
+            
+
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <!--
+        label é um texto que ao ser clicado direciona para a caixa de entrada
+            -for é o para onde irá apontar 
+        input é a caixa de texto
+            -type = "text" é o tipo de entrada
+            -id é um id para "dar nome ao input"
+            -name é como será dado a requisição ao ser enviada. por
+            exemplo q de query
+            -required tonar a entrada de texto obrigatória
+        button é um botao
+            -type é o tipo de butom
+        value é o valor enviado para o backend
+            usado principalmente em radio no input
+        -->
+        
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
